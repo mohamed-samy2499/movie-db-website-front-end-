@@ -1,0 +1,119 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+
+<body>
+    <div class="side-menu">
+        <div class="logo-bar text-center">
+            <div class="logo">
+                <img  src="images/alogo.png" alt="">
+            </div>
+            <div id="toggle-btn" class="toggle-button">
+                <i class='fas fa-bars'></i>
+            </div>
+            <div class="logo-social text-center">
+                <i class="fas fa-align-justify fa-globe"></i>
+                <i class="fas fa-align-justify fa-share-alt pt-3"></i>
+            </div>
+        </div>
+        <div class="options-bar text-white">
+            <div id="choosing" class="choose">
+                <ul>
+                    <li class="awl-li" id="now-playing">Now playing</li>
+                    <li class="tany-li" id = "popular">Popular</li>
+                    <li class="talt-li" id = "top-rated">Top Rated</li>
+                    <li class="rab3-li" id = "trending">Trending</li>
+                    <li class="oams-li" id = "up-coming">Upcoming</li>
+                    <li class ="sads-li" id = "contact">Contact Us</li>
+                </ul>
+            </div>
+            <div class="side-footer">
+                    <a target="_blank"  href="https://www.facebook.com/"><i class="fab fa-facebook-f m-2 "></i></a>
+                    <a target="_blank"  href="https://www.twitter.com/"><i class="fab fa-twitter m-2"></i></a>
+                    <a target="_blank"  href="https://www.google.com/"><i class="fas fa-align-justify fa-globe m-2"></i></a>
+                <div class="pt-3">
+                    <span class="text-muted">Contact Us Copyright Â© 2019 All Rights Reserved.</span>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <section id="Home" class="pt-5">
+        <div class="container">
+            <div class="row d-flex justify-content-center ">
+                <div class="col-md-5">
+                    <div class="form-group ">
+
+                        <input id = "searc_word" onkeyup="searching(this.value)" type="text" class="form-control search text-center text-white"
+                            placeholder="get movies by name">
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="form-group ">
+                        <input type="text" onkeyup="hereSearching(this.value)" class="form-control search text-center text-white" placeholder="search In this page">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="movies">
+        <div class="container pt-5">
+            <div id="searchRow" class="row">
+                
+            </div>
+            <div id="myRow" class="row">
+                
+            </div>
+        </div>
+
+    </section>
+    <section id="footer">
+        <div class="container mt-5">
+            <h2 class="m-3 text-white">Contact us...</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group m-2">
+
+                        <input id="name" type="text" class="form-control search text-center m-2 text-white"
+                            placeholder="Enter your name">
+                            <p id="name_er"style="color:red;"></p>
+                        <input id="age" type="text" class="form-control search text-center m-2 text-white"
+                            placeholder="Enter your age">
+                            <p id="age_er"style="color:red;"></p>
+                        <input id="pass" type="password" class="form-control search text-center m-2 text-white"
+                            placeholder="Enter your password">
+                            <p id="pass_er"style="color:red;"></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group m-2">
+
+                        <input id="email" type="text" class="form-control search text-center m-2 text-white"
+                            placeholder="Enter your email">
+                            <p id="email_er"style="color:red;"></p>
+                        <input id="phone" type="text" class="form-control search text-center m-2 text-white"
+                            placeholder="Enter your phone">
+                            <p id="phone_er"style="color:red;"></p>
+                        <input id = "repass"type="password" class="form-control search text-center m-2 text-white"
+                            placeholder="Rewrite password">
+                            <p id="repass_er"style="color:red;"></p>
+                    </div>
+                </div>
+                <div class="col-md-3 m-3">
+                    <button class="btn text-danger">Submit</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

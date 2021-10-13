@@ -1,0 +1,245 @@
+*
+{
+
+}
+body
+{
+    background-color: black;
+}
+.search
+{
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7) !important;
+}
+/***********/
+.movie-poster
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 3.8rem;
+    overflow: hidden;
+}
+.layer
+{
+    background-color:rgba(255, 255, 255, 0.7);
+    top: 100%;
+
+    left: 0;
+   
+    transition: all 0.5s;
+}
+.movie-poster img
+{
+    height: auto;
+}
+.movie-poster:hover .layer
+{
+    top: 0;
+    bottom:0;
+}
+.btn
+{
+    border-color: tomato !important;
+    box-shadow: 1px 1px 1px tomato;
+    
+}
+.btn:hover
+{
+    background-color: #dc3545;
+    color: white !important;
+}
+/*****************/
+.logo-bar
+{
+    position: fixed;
+    z-index: 99999;
+    left: 0px;
+    top: 0;
+    bottom: 0;
+    background-color: #f8f6f6;
+    width: 60px;
+}
+.logo-bar i:hover
+{   
+    cursor: pointer;
+}
+.logo
+{
+    padding: 25px 0;
+}
+.logo img
+{
+    height: 48px;   
+}
+.toggle-button
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.toggle-button i
+{
+    font-weight: 900;
+    font-size: 25px;
+
+}
+.logo-social
+{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.options-bar
+{
+    position: fixed;
+    z-index: 99;
+    left: -250px;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    width: 250px;
+
+}
+.side-footer
+{
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    padding-right:25px ;
+}
+.options-bar ul
+{
+    
+    padding-left: 30px;
+    height: 300px;
+    list-style-type: none;
+}
+.options-bar li
+{
+    padding-top: 25px;
+}
+.options-bar i
+{
+    padding-left: 14px;
+    font-size: 15px;
+}
+.options-bar a
+{
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.options-bar a:hover{
+
+    color: tomato;
+}
+
+
+.awl-li
+{
+    transform: translateY(1000px);
+    cursor: pointer;
+    transition: all 0.5s;
+    transition-duration: 2s;
+    opacity: 0;
+}
+.tany-li
+{
+    transform: translateY(1300px);
+    cursor: pointer;
+    transition: all 0.5s;
+    transition-duration: 1.8s;
+    opacity: 0;
+}
+.talt-li
+{
+    transform: translateY(1600px);
+    cursor: pointer;
+    transition: all 0.5s;
+    transition-duration: 1.6s;
+    opacity: 0;
+}
+.rab3-li
+{
+    transform: translateY(1900px);
+    cursor: pointer;
+    transition: all 0.5s;
+    transition-duration: 1.4s;
+    opacity: 0;
+}
+.oams-li
+{
+    transform: translateY(2200px);
+    cursor: pointer;
+    transition: all 0.5s;
+    transition-duration: 1.2s;
+    opacity: 0;
+}
+.sads-li
+{
+    transform: translateY(2400px);
+    cursor: pointer;
+    transition: all 0.5s;
+    transition-duration: 1s;
+    opacity: 0;
+}
+
+.awl1-li
+{
+    /*transform: translateY(1000px);*/
+    cursor: pointer;
+    transition: all 0.5s;
+    transition-duration: 1s;
+    opacity: 1;
+}
+.tany1-li
+{
+    /*transform: translateY(1300px);*/
+    cursor: pointer;
+    transition: all 0.5s;
+    transition-duration: 1.2s;
+    opacity: 1;
+}
+.talt1-li
+{
+    /*transform: translateY(1600px);*/
+    cursor: pointer;
+    transition: all 0.5s;
+    transition-duration: 1.4s;
+    opacity: 1;
+}
+.rab31-li
+{
+    /*transform: translateY(1900px);*/
+    cursor: pointer;
+    transition: all 0.5s;
+    transition-duration: 1.6s;
+    opacity: 1;
+}
+.oams1-li
+{
+    /*transform: translateY(2200px);*/
+    cursor: pointer;
+    transition: all 0.5s;
+    transition-duration: 1.8s;
+    opacity: 1;
+}
+.sads1-li
+{
+    /*transform: translateY(2400px);*/
+    cursor: pointer;
+    transition: all 0.5s;
+    transition-duration: 2s;
+    opacity: 1;
+}
+.choose li:hover
+{
+    color: tomato;
+}
+.line_white
+{
+    color: white;
+}
